@@ -1,0 +1,70 @@
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color:black;
+}
+#post {
+    background-color: white;
+    width: 500px;
+    height: 600px
+}
+#header {
+    width: 500px;
+    height: 50px;
+}
+#logo {
+    float: left;
+    margin: 20px 0px 0px 7px;
+}
+#name {
+    float: left;
+    padding-left: 8px;
+}
+#dots {
+    float: right;
+    padding-top: 18px;
+    padding-right: 10px
+}
+#feedbox {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+}
+img {
+    height: 300px;
+    width: 500px;
+    object-fit: contain;
+    border-top: 1px solid rgba(233, 233, 233, 0.8);
+    border-bottom: 1px solid rgba(233, 233, 233, 0.8);
+}
+#text {
+    width: 500px;
+    height: 50px;
+    display: inline;
+}
+#heart {
+    float:left;
+    padding: 4px;
+    margin-left: 4px;
+}
+#textbubble {
+    float: left;
+    padding: 4px;
+}
+#paperplane {
+    float: left;
+    padding: 4px;
+}
+#bookmark {
+    float: right;
+    padding: 4px;
+    margin-right: 15px;
+}
+#liked {
+    display: inline-block;
+    padding-left: 8px;
+}
+#bottomtext {
+    display: inline-block;
+    padding: 0px 8px 0px 8px;
+}
